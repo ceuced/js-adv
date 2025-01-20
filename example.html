@@ -8,7 +8,7 @@
     <script type="module" defer>
         const dropDown = document.getElementById('dropDown'); // Select by ID
         function handleChange() {
-            const { value } = dropDown; // Get the value using destructuring
+            const { value: selected } = dropDown; // Get the value using destructuring
             const myElement = document.querySelector('#myElement'); // Use of Query Selector
             const styles = [
                 {color: null, fontSize: null},
